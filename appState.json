@@ -1,0 +1,101 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "19b32b58-3a48-45e7-b729-d29db40d31d9": {
+        "id": "19b32b58-3a48-45e7-b729-d29db40d31d9",
+        "parent": null,
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "lambda.js",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 5
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigeuCentral1californiacheckput",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "openFiles": [
+      "19b32b58-3a48-45e7-b729-d29db40d31d9"
+    ],
+    "currentFileId": "19b32b58-3a48-45e7-b729-d29db40d31d9",
+    "resources": {
+      "apigeuCentral1californiacheckput": {
+        "name": "apigeuCentral1californiacheckput",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "eu-central-1",
+          "apiMode": 1,
+          "apiName": "california",
+          "apiId": "p8eirhyd7k",
+          "endpointType": "REGIONAL",
+          "rootResourceId": "vi6xlt1lei",
+          "existingResources": {
+            "/check/cal": "batevx",
+            "/check": "pcpvxf",
+            "/": "vi6xlt1lei"
+          },
+          "resourceMode": 1,
+          "resourcePath": "/check",
+          "resourceName": "check",
+          "resourceId": "pcpvxf",
+          "restMethod": "PUT",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 1,
+          "stageName": "test",
+          "stageDeploymentId": "sfmpfx",
+          "mode": 1
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "frnkfrt-28",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "eu-central-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1582870416133
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "frnkfrt-28",
+      "url": "https://github.com/Indunil1992/frnkfrt-28"
+    }
+  }
+}
